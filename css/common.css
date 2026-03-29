@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 16px;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.stroke-basic {
+  border-radius: 4px;
+    outline: transparent;
+      border: 1px solid #808080;
+      max-width: 360px;
+      height: 40px;
+      font-family: var(--font-family);
+      padding: 8px 16px;
+      margin-bottom: 16px;
+      margin-top: 8px;
+}
+
+.stroke-basic:hover,
+.stroke-basic:focus {
+border-color: #000;
+}
+
+.stroke-basic:active {
+border-color: #808080;
+}
+
+
+/* #region task-1(category)  */
+
+.list-category {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 392px;
+}
+
+.item {
+padding: 16px 16px;
+background-color: #f6f6fe;
+}
+
+.second-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
+
+.list-inner-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inner-item {
+  padding: 8px 16px;
+  border: 1px solid #808080;
+    border-radius: 4px;
+    font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #2e2f42;
+      font-family: var(--font-family);
+}
+
+/* #endregion */
+
+/* #region task-2(gallery) */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  background-color: rgb(red, green, blue);
+  justify-content: center;
+}
+
+/* #endregion */
+
+/* #region task-3(Hello, Anonymous!) */
+
+
+.form-title {
+font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: var(--font-family);
+}
+
+/* #endregion */
+
+/* #region task-4(email-password) */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+}
+
+.form-label {
+  font-weight: 400;
+    font-size: 16px;
+    font-family: var(--font-family);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-top: 8px;
+}
+
+.form-stroke {
+  display: block;
+  margin-bottom: 0;
+}
+
+.form-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  max-width: 86px;
+  background: #4e75ff;
+  font-weight: 500;
+    font-size: 16px;
+    border: transparent;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-family: var(--font-family);
+    margin-top: 16px;
+}
+
+.form-btn:hover {
+  background: #6c8cff;
+}
+
+/* #endregion */
+
+/* #region task-5(widget) */
+
+.change-color {
+  border-radius: 8px;
+    padding: 8px 16px;
+    max-width: 148px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    border: transparent;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    font-family: var(--font-family);
+    margin-top: 16px;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+}
+/* #endregion */
