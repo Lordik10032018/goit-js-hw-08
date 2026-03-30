@@ -37,12 +37,14 @@ button {
 img {
   display: block;
   height: auto;
+  width: 100%;
 }
 
 .container {
-  max-width: 1360px;
+  max-width: 1200px;
   margin: 0 auto;
 }
+
 /* #endregion */
 
 /* #region gallery */
@@ -50,19 +52,29 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  background-color: rgb(red, green, blue);
-  justify-content: center;
 }
 
-.item-btn {
-  padding: 0;
-  border: transparent;
+.gallery-item {
   transition: box-shadow 300ms ease-in-out;
+  width: calc((100% - 60px) / 3);
 }
 
-.item-btn:hover,
-.item-btn:focus {
-box-shadow: 0 4px 10px 10px rgba(48, 48, 48, 0.2);}
+.gallery-item:hover,
+.gallery-item:focus {
+box-shadow: 0 4px 10px 10px rgba(48, 48, 48, 0.2);
+}
+
+.basicLightbox__placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* #endregion */
 
