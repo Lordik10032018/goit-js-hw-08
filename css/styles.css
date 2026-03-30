@@ -48,7 +48,7 @@ img {
 /* #endregion */
 
 /* #region gallery */
-.listItem {
+.gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;

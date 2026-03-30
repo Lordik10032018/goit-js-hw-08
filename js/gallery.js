@@ -1,5 +1,5 @@
 const refs = {
-    listItem: document.querySelector('.listItem'),
+    listItem: document.querySelector('.gallery'),
 }
 
     const images = [
