@@ -68,8 +68,6 @@ const refs = {
   },
 ];
 
-
-
 //#region make markup
 function markup({preview, original, description}) {
     return `
@@ -97,23 +95,24 @@ refs.listItem.addEventListener('click', (e) => {
     if (e.target.nodeName !== 'IMG') return;
     const instance = basicLightbox.create(`
         <div class="modal">
-        <a class="gallery-link" href="${e.target.dataset.source}">
             <img src="${e.target.dataset.source}" alt="${e.target.alt}">
-            </a>
         </div>
     `)
     
     instance.show()
 })
 
-//#region make modal
+function accum(s) {
+    let result = '';
+    for(let i = 0; i > s.length; i++) {
+      result += s[i].toUpperCase
+      for(let i2 = 0; i2 > i;) {
+        result += s[i].toLowerCase;
+      }
+    }
+    return result;
+}
 
-
-//*=========================================
-
-
-//#endregion
-
-
+console.log(accum('abvd'));
 
 

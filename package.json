@@ -1,0 +1,21 @@
+{
+  "name": "goit-js-hw-08",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Lordik10032018/goit-js-hw-08#readme",
+  "bugs": {
+    "url": "https://github.com/Lordik10032018/goit-js-hw-08/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lordik10032018/goit-js-hw-08.git"
+  },
+  "license": "ISC",
+  "author": "Yaroslav Savchenko <lordik10032018@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git add . && git commit -m \"add changes\" && git push"
+  }
+}
